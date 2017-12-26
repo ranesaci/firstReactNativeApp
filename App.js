@@ -11,6 +11,7 @@ import StyleSheetComponent from './app/components/StyleSheetComponent/StyleSheet
 import TouchableHighlightComponent from './app/components/TouchableHighlightComponent/TouchableHighlightComponent';
 import TextComponent from './app/components/TextComponent/TextComponent';
 import ListViewComponent from './app/components/ListViewComponent/ListViewComponent';
+import FetchJsonDataComponent from './app/components/FetchJsonDataComponent/FetchJsonDataComponent';
 
 
 export default class App extends Component<{}> {
@@ -38,6 +39,10 @@ export default class App extends Component<{}> {
              <Text>ListViewComponent view**************</Text>
                 <ListViewComponent/>
              </View>
+              <View>
+                 <Text>FetchJsonDataComponent view**************</Text>
+                   <FetchJsonDataComponent/>
+               </View>
 
               <View>
                    <Text> view4345354543**************</Text>
